@@ -1,0 +1,111 @@
+#home,#About,#Services,#Contact{
+  padding-top: 5%;
+  padding-bottom: 5%;  
+  line-height: 30px;
+}
+.parallax-container div h3{
+  font-size: 5rem;
+  font-weight: 900;
+}
+.parallax-container{
+  background-image: linear-gradient(to left,rgba(0, 0, 0, 0.253),rgba(255, 255, 255, 0.281));
+}
+.slider .indicators .indicator-item.active{
+  background-color: red !important;
+}
+
+#Services .services1{
+  border-radius: 70%;
+  display: inline;  
+  position: relative;  
+  float: left;
+  width: 100px;
+}
+#Services .ofline-services{
+  border-radius: 70%;
+  display: inline;  
+  position: relative;  
+  float: right;
+  width: 100px;
+}
+#press{
+  padding: 10%;
+}
+
+#mens-produts div .container .row .col{
+  margin-top: 3% !important;
+}
+
+
+#red {
+  margin-top: 46px;
+}
+
+#Services p{
+  display: inline;
+  position: relative;
+}
+#Services div{
+  margin: 15%;
+}
+.about-img{
+  
+  margin: 10px;
+  padding: 7px;
+}
+.about-img img{
+    border-radius: 70%;
+}
+
+#press{
+  background-color: gray;
+}
+#press img{
+  padding: 2%;
+  margin: 2%;
+  width: 150px;
+}
+#footer{
+  background-color: rgb(42, 42, 42) !important;
+  padding: 5%;
+}
+
+@media only screen and (max-width:400px){
+  .brand-logo{
+    font-size: 1.5rem !important;
+  }
+  .parallax-container div h3{
+    font-size: 4rem !important;
+    margin-top: 100px !important;
+  }
+  #press img{
+    width: 100px;
+  }#mens-produts div .container .row .col{
+    margin-top: 5% !important;
+  }
+  h1{
+    font-size: 3rem !important;
+  }
+
+}
+
+
+
+@media only screen and (max-width:550px){
+
+  .brand-logo{
+    font-size: 1.5rem !important;
+  }
+  .parallax-container div h3{
+    font-size: 4rem !important;
+    margin-top: 100px !important
+    ;
+  }
+  h1{
+    font-size: 3.5rem !important;
+  }
+  #press img{
+    width: 100px;
+  }
+
+}
